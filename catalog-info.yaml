@@ -7,7 +7,7 @@ metadata:
   annotations:
     github.com/project-slug: rohitkrai03/devfile-sample
     backstage.io/kubernetes-id: devfile-sample
-    quay.io/repository-slug: quayadmin/my-quarkus-app,
+    quay.io/repository-slug: quayadmin/my-quarkus-app
     janus-idp.io/tekton : devfile-sample
 spec:
   type: service
