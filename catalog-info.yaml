@@ -12,7 +12,7 @@ metadata:
 spec:
   type: service
   lifecycle: unknown
-  owner: rohitkrai03
+  owner: team-rhdh-ai
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
