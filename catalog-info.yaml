@@ -12,4 +12,27 @@ metadata:
 spec:
   type: service
   lifecycle: unknown
-  owner: temp-team-a
+  owner: team-rhdh-ai
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-rhdh-ai
+  description: Team RHDH Plugins and AI
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: rohitkrai03@gmail.com
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: rohitkrai03
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: rohitkrai03@gmail.com
+  memberOf: [team-rhdh-ai]
+---
